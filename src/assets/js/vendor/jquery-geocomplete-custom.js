@@ -1,0 +1,1 @@
+global.geocomplete = require('geocomplete');

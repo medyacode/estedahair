@@ -1,0 +1,27 @@
+// @import "@fortawesome/fontawesome-free/css/fontawesome";
+// @import "@fortawesome/fontawesome-free/css/regular";
+// @import "@fortawesome/fontawesome-free/css/solid";
+
+//@import "../../../../node_modules/@fortawesome/fontawesome-free/scss/fontawesome";
+$fa-font-path: "../fonts/font-awesome" !default;
+@import "../../../../node_modules/@fortawesome/fontawesome-free/scss/fontawesome";
+@import "../../../../node_modules/@fortawesome/fontawesome-free/scss/brands";
+@import "../../../../node_modules/@fortawesome/fontawesome-free/scss/solid";
+@import "../../../../node_modules/@fortawesome/fontawesome-free/scss/regular";
+
+.fab {
+  font-family: 'Font Awesome 5 Brands' !important;
+}
+
+.fas {
+  font-family: 'Font Awesome 5 Free' !important;
+}
+
+.far {
+  font-family: 'Font Awesome 5 Free' !important;
+}
+
+.fa,
+.fas {
+  font-family: 'Font Awesome 5 Free' !important;
+}

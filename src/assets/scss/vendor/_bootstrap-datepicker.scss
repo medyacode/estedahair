@@ -1,0 +1,7 @@
+@import "../../../../node_modules/bootstrap-datepicker/dist/css/bootstrap-datepicker3";
+
+html[dir=rtl]{
+    input[data-plugin=bootstrapDatepicker]{
+        text-align: left;
+    }
+}

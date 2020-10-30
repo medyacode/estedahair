@@ -1,0 +1,19 @@
+.pagination{
+    li.page-item{
+        font-size:13px;
+        &:first-child a,&:last-child a{
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        &.active{
+            a.page-link{
+                color: $color-white !important;
+                background-color: $success !important;
+                border-color: $success !important;
+            }
+        }
+        a.page-link {
+            color:$color-blue-grey-400;                
+        }
+    }
+}

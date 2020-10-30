@@ -1,0 +1,135 @@
+header{
+    padding:24px 0;
+    background-color: $color-white;
+
+    .search{
+        position: relative;
+        width: 450px;
+        input[type=text]{
+            border:1px solid $color-blue-grey-200;
+            padding-left: 45px;
+            font-size:16px;
+            height: 46px;
+        }
+        .icon{
+            position: absolute;
+            top:12px;
+            left:15px;
+            i{
+                color:#d8d8d8;
+                font-size:20px;
+            }
+        }
+    }
+
+    .my-course{
+        a{
+            color:$color-blue-grey-600;
+            font-size:16px;
+        }
+    }
+
+    .notifications {
+        a {
+            color:$color-blue-grey-600;
+            font-size:20px;
+        }
+    }
+    
+    .my-account{
+        a {
+            display: block;
+            color:$color-blue-grey-600;
+            text-decoration: none;
+        }
+    }
+
+    .education-name{
+        border-left:1px solid $color-blue-grey-200;
+        height: 46px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding-left: 34px;
+        h1{
+            font-size:24px;
+            font-weight: 500;
+            color:$color-blue-grey-600;
+            margin-bottom: 0;
+        }
+    }
+
+    .mobile-education-name{
+        margin-top: 15px;
+        width: 100%;
+        border-top:1px solid $color-blue-grey-200;
+        padding-top: 10px;
+        h1{
+            font-size:20px;
+            font-weight: 500;
+            color:$color-blue-grey-600;
+            margin-bottom: 0;
+        }
+    }
+
+    .exit-course{
+        a{
+            color:$color-blue-grey-600;
+            font-size:15px;
+            &:hover{
+                color:$color-green-600;
+            }
+        }
+    }
+}
+
+.view-wrapper{
+    .btn-group{
+        border:1px solid #e4eaec;
+        border-radius: 6px;
+        background-color: #f3f7f9;
+        button.btn{
+            &:first-child{
+                border-right: 1px solid #e4eaec;
+            }
+            &.active{
+                color:#76838f;
+                i{
+                    color:#76838f;
+                }
+            }
+            color:#ccd5db;
+            font-size:13px;
+            padding: 8px 13px;
+            i{
+                color:#ccd5db;
+                margin-right: 6px;
+            }
+        }
+    }
+}
+
+html[dir=rtl]{
+
+}
+
+@media only screen and (max-width: 991px) {
+}
+
+@media only screen and (max-width: 767px) {
+    header{
+        padding: 14px 0;
+        .logo{
+            img{
+                height: 33px;
+            }
+        }
+        .education-name{
+            display: none;
+        }
+    }
+}
+
+@media only screen and (max-width: 500px) {
+}
+

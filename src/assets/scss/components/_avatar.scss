@@ -1,0 +1,62 @@
+.avatar{
+    width: 35px;
+    height: 35px;
+    min-width: 35px;
+    min-height: 35px;
+    border-radius: 6px;
+    font-size:14px;
+    font-weight: 700;
+    color:$color-white;
+    background-color: $color-green-400;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    a{
+        display: block;
+        color:$color-white;
+        text-align: center;
+        &:hover{
+            text-decoration: none !important;
+        }
+    }
+    &.circle{
+        border-radius: 50px;
+    }
+    &.avatar-md{
+        width: 45px;
+        height: 45px;
+        min-width: 45px;
+        min-height: 45px;
+        font-size:16px;
+        a{
+            width: 45px;
+            height: 45px;
+            line-height: 45px;
+        }
+    }
+    &.avatar-lg{
+        width: 55px;
+        height: 55px;
+        min-width: 55px;
+        min-height: 55px;
+        font-size:18px;
+        a{
+            width: 55px;
+            height: 55px;
+            line-height: 55px;
+        }
+    }
+    &.avatar-xl{
+        width: 80px;
+        height: 80px;
+        min-width: 80px;
+        min-height: 80px;
+        font-size:25px;
+        a{
+            width: 80px;
+            height: 80px;
+            line-height: 80px;
+        }
+    }
+}

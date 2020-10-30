@@ -1,0 +1,15 @@
+@import "../../../../node_modules/bootstrap-star-rating/css/star-rating";
+@import "../../../../node_modules/bootstrap-star-rating/themes/krajee-fa/theme";
+
+.rating-container .rating-stars{
+    vertical-align: text-bottom;
+}
+.rating-container .filled-stars{
+    color:#fcc600;
+    -webkit-text-stroke:0 !important;
+    text-shadow: none !important;
+}
+.rating-rtl{
+    float:none !important;
+}
+

@@ -1,0 +1,156 @@
+.watch-wrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    border-top:1px solid $color-blue-grey-200;
+    &.open{
+
+    }
+    .watch-content{
+        width: 80%;
+
+        .watch-preview{
+            width: 100%;
+            height: auto;
+            min-height: 600px;
+            background-color: $color-black;
+            position: relative;
+
+            .course-content-trigger{
+                position: absolute;
+                top:50px;
+                a{
+                    background-color: $color-blue-grey-700;
+                    padding: 10px 15px;
+                    display: block;
+                    color:$color-white;
+                    text-decoration: none;
+                    font-size:14px;
+                    font-weight: 500;
+                }
+                &.hide{
+                    right: -150px;
+                }
+                &.show{
+                    right: 0;
+                }
+            }
+        }
+
+        .watch-controls{
+            background-color: $color-white;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            .descriptions{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                .section{
+                    color:$color-blue-grey-400;
+                    font-size:16px;
+                }
+                .icon{
+                    font-size:20px;
+                    color:$color-primary;
+                }
+                .text{
+                    color:$color-blue-grey-700;
+                    font-size:16px;
+                    font-weight: 500;
+                }
+            }
+        }
+    }
+
+    .course-wrapper{
+        background-color: $color-white;
+        width: 20%;
+        position: relative;
+        right: 0;
+        .course-list{
+            height: 100%;
+            .course-header{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-between;
+                background-color: $color-blue-grey-400;
+                padding: 20px 1.25rem;
+                h3{
+                    color: $color-blue-grey-700;
+                    margin: 0;
+                    font-size: 17px;
+                    font-weight: 600;
+                }
+                .close{
+                    a{
+                        font-size: 18px;
+                        color: $color-blue-grey-700;
+                        display: block;
+                    }
+                }
+            }
+            .course-content{
+                overflow-y: auto;
+                height: calc(100% - 60px);
+                .card{
+                    border-bottom:0;
+                    border-radius:0;
+                    .card-body{
+                        padding-top: 2px;
+                        padding-bottom: 2px;
+                    }
+                }
+            }
+            
+        }
+    }
+
+}
+
+@media only screen and (max-width: 1600px) {
+    .watch-wrapper{
+        .watch-content{
+            width: 70%;
+
+            .watch-preview{
+                min-height: 400px;
+                .course-content-trigger{
+                    top:20px;
+                }
+            }
+        }
+        .course-wrapper{
+            width: 30%;
+        }
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .watch-wrapper{
+        .watch-content{
+            width: 100%;
+            #watchPreviewExpand{
+                display: none !important;
+            }
+            #watchPreviewCollapse{
+                display: none !important;
+            }
+        }
+        .course-wrapper{
+            position: fixed !important;
+            width: 80%;
+            height: 100% !important;
+            top:0 !important;
+        }
+    }
+}
+
+@media only screen and (max-width: 767px) {
+
+}
+
+@media only screen and (max-width: 500px) {
+}

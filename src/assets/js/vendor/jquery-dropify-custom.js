@@ -1,0 +1,1 @@
+global.dropify = require('dropify');

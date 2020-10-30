@@ -1,0 +1,52 @@
+// Override variables
+$body-color: #696969;
+
+$cyan: #0095d7 !default;
+$green: #00a99d !default;
+$orange: #f0b336 !default;
+
+$primary: $cyan !default;
+$secondary: $green !default;
+$success: $color-green-600 !default;
+$warning: $orange !default;
+
+// Required
+@import "functions";
+@import "variables";
+@import "mixins";
+
+// Optional import only files that we need
+// @import "root";
+@import "reboot";
+@import "type";
+@import "images";
+// @import "code";
+@import "grid";
+@import "tables";
+@import "forms";
+@import "buttons";
+@import "transitions";
+@import "dropdown";
+@import "button-group";
+@import "input-group";
+@import "custom-forms";
+@import "nav";
+@import "navbar";
+@import "card";
+@import "breadcrumb";
+@import "pagination";
+@import "badge";
+// @import "jumbotron";
+@import "alert";
+// @import "progress";
+@import "media";
+@import "list-group";
+@import "close";
+// @import "toasts";
+@import "modal";
+@import "tooltip";
+@import "popover";
+// @import "carousel";
+// @import "spinners";
+@import "utilities";
+// @import "print";

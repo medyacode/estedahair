@@ -1,0 +1,13 @@
+@import "../../../../node_modules/dropify/dist/css/dropify";
+
+@font-face {
+    font-family: 'dropify';
+    src: url("../fonts/dropify/dropify.eot");
+    src: url("../fonts/dropify/dropify.eot#iefix") format("embedded-opentype"), url("../fonts/dropify/dropify.woff") format("woff"), url("../fonts/dropify/dropify.ttf") format("truetype"), url("../fonts/dropify/dropify.svg#dropify") format("svg");
+    font-weight: normal;
+    font-style: normal; 
+}
+
+.dropify-wrapper .dropify-message span.file-icon p{
+    font-size:20px;
+}

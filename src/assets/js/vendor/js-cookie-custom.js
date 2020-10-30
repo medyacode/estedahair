@@ -1,0 +1,1 @@
+global.Cookies = require('js-cookie/src/js.cookie');

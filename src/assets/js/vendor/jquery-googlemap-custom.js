@@ -1,0 +1,1 @@
+global.googlemap = require('jquery-googlemap/jquery.googlemap');

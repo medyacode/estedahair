@@ -1,0 +1,1 @@
+global.owlCarousel = require('owl.carousel2');

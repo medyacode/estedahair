@@ -1,0 +1,1 @@
+global.lazy = require('jquery-lazy');

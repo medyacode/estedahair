@@ -1,0 +1,11 @@
+var $  = require('jquery');
+var dt = require('datatables.net-bs4')( window, $ );
+require('datatables.net-buttons-bs4');
+require('datatables.net-buttons/js/buttons.flash.js');
+require('datatables.net-buttons/js/buttons.print.js');
+require('datatables.net-fixedheader-bs4');
+require('datatables.net-responsive-bs4');
+require('datatables.net-rowgroup-bs4');
+require('datatables.net-scroller-bs4');
+require('datatables.net-searchpanes-bs4');
+require('datatables.net-select-bs4');

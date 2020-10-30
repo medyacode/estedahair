@@ -1,0 +1,16 @@
+.page{
+    .page-inner{
+        .page-header{
+            border-top: 1px solid rgba(99, 60, 60, 0.1);
+            h1{
+                font-size:32px;
+                color:$color-white;
+                text-align: center;
+                padding: 30px 0;
+            }
+        }
+    }
+    .page-content{
+        min-height: 400px;
+    }
+}

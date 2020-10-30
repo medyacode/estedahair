@@ -1,0 +1,101 @@
+html {
+    touch-action: manipulation;
+}
+body{
+    font-family: 'Montserrat', sans-serif !important;
+    &.fixed-scroll{
+        overflow: hidden !important;
+    }
+    background-color: $color-blue-grey-200 !important;
+}
+
+.page{
+    padding-bottom: 48px;
+    min-height: 100%;
+}
+
+.language{
+    position: absolute;
+    top:15px;
+    right: 0;
+    z-index: 1;
+    .btn{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        border-radius: 6px 0 0 6px !important;
+        font-weight: 600;
+        font-size:13px;
+        img{
+            width: 15px;
+            margin: 0 5px;
+        }
+    }
+}
+
+.cookie-policy{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    font-size:14px;
+    z-index: 10;
+    padding: 10px 0;
+    background:rgba(0,0,0,0.7);
+    button.close{
+        line-height: 0.6;
+    }
+}
+
+.small-text{
+    font-size:13px;
+}
+.xlarge-text{
+    font-size:26px;
+}
+
+.text-collapse{
+    height: 100px; 
+    overflow: hidden;
+}
+
+.shadow{
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+.br-6{
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px; 
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px; 
+}
+
+html[dir=rtl][lang=ar]{
+    body{
+        font-family: 'Tajawal', sans-serif !important;
+    }
+}
+
+
+.ellipse {
+    white-space: nowrap;
+    display:inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.two-lines {
+    -webkit-line-clamp: 2;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    white-space: normal;
+}
+.three-lines {
+    -webkit-line-clamp: 3;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    white-space: normal;
+}

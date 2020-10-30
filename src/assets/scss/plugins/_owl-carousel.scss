@@ -1,0 +1,102 @@
+.owl-theme{
+    .owl-nav{
+        position: absolute;
+        top:calc(100% - 50% - 63px / 2);
+        left:0;
+        right:0;
+        margin:0;
+        z-index: -1;
+        .owl-prev, .owl-next{
+            width: 45px;
+            height: 45px;
+            background-color: transparent;
+            border:2px solid;
+            border-radius: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            i{
+                font-size:17px;
+            }
+            .disabled{
+                opacity: 0.5;
+            }
+            &:hover{
+                background-color: transparent;
+            }
+        }
+        .owl-prev{
+            float: left;
+            margin-left: -75px;
+        }
+        .owl-next{
+            float: right;
+            margin-right: -75px;
+        }
+    }
+    .owl-dots{
+        display: none;
+        .owl-dot{
+            margin-top: 15px;
+            span{
+                width: 12px;
+                height: 12px;
+                background-color: #cccccc;
+            }
+        }
+    }
+    &.green{
+        .owl-nav{
+            .owl-prev, .owl-next{
+                border-color:$color-primary;
+                i{
+                    color:$color-primary;
+                }
+            }
+        }
+        .owl-dot{
+            &.active
+            {
+                span{
+                    background-color: $color-primary;
+                }
+            }
+            &:hover{
+                span{
+                    background-color: $color-primary;
+                }
+            }
+
+        }
+    }
+    &.white{
+        .owl-nav{
+            .owl-prev, .owl-next{
+                background-color: $color-white;
+                box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+                i{
+                    color:$color-blue-grey-300;
+                }
+                &:hover{
+                    i{
+                        color: $color-blue-grey-500
+                    }
+                }
+            }
+        }
+        .owl-dot{
+            &.active
+            {
+                span{
+                    background-color: $color-blue-grey-200;
+                }
+            }
+            &:hover
+            {
+                span{
+                    background-color: $color-green-500;
+                }
+            }
+        }
+    }
+}

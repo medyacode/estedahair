@@ -1,0 +1,1 @@
+global.magnificPopup = require('magnific-popup');

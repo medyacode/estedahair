@@ -1,0 +1,1 @@
+global.mask = require('jquery-mask-plugin');

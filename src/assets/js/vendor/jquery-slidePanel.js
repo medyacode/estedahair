@@ -1,0 +1,1 @@
+global.sidebar = require('jquery-slidePanel');

@@ -1,0 +1,21 @@
+.btn-outline-light{
+    border-color: $color-blue-grey-200;
+    color:$color-blue-grey-500;
+    font-size: 13px;
+    &:hover{
+        background-color:$color-blue-grey-200;
+        border-color: $color-blue-grey-300;
+    }
+}
+
+.btn-orange{
+    color: $color-white;
+    background-color: $color-orange-dark;
+    border-color:$color-orange-dark;
+}
+
+.btn-blue{
+    color: $color-white;
+    background-color: $color-blue;
+    border-color:$color-blue;
+}

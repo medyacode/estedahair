@@ -1,0 +1,20 @@
+{
+  "en": {
+    "title": "Esteda Hair Hospital",
+    "description": "Estedahair for front-end developer which supports: SCSS, Nunjucks, Babel + auto polyfill, Browserify & Browsersync.",
+    "author": "Medyacode Creative Agency",
+    "lang": "tr",
+    "locale": "tr_TR",
+    "dir": "ltr",
+    "url": "http://localhost:8080/tr/"
+  },
+  "ar": {
+    "title": "Esteda Hair Hospital",
+    "description": "Estedahair LMS for front-end developer which supports: SCSS, Nunjucks, Babel + auto polyfill, Browserify & Browsersync.",
+    "author": "Medyacode Creative Agency",
+    "lang": "ar",
+    "locale": "ar_AR",
+    "dir": "rtl",
+    "url": "http://localhost:8080/ar/"
+  }
+}
