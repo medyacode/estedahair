@@ -2,7 +2,6 @@ html {
     touch-action: manipulation;
 }
 body{
-    font-family: 'Montserrat', sans-serif !important;
     &.fixed-scroll{
         overflow: hidden !important;
     }
@@ -10,7 +9,6 @@ body{
 }
 
 .page{
-    padding-bottom: 48px;
     min-height: 100%;
 }
 

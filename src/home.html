@@ -9,441 +9,141 @@ bodyClass: home
 <div class="page-inner">
     <div class="page-content">
 
-        <!-- View Change Section -->
-        <section class="view-wrapper d-block d-lg-none">
-            <div class="container text-center pt-4">
-                <div class="btn-group" role="group">
-                    <button type="button" class="btn active"><i class="fas fa-list"></i> LİSTE</button>
-                    <button type="button" class="btn"><i class="fas fa-calendar-alt"></i> TAKVİM</button>
-                </div>
+
+    <!-- FAQ Section -->
+    <div class="container space-2 space-3--lg">
+        <div class="row justify-content-lg-between">
+          <div class="col-lg-4 mb-7 mb-lg-0">
+            <!-- Info -->
+            <div class="bg-dark shadow-sm rounded p-5 mt-lg-9">
+              <h3 class="text-white">Have a question?</h3>
+              <p class="text-white-70">Call us and we'll be happy to help.</p>
+  
+              <address class="mb-0">
+                <span class="d-block text-white-70 font-weight-medium py-1">+1 (062) 109-9222</span>
+                <span class="d-block text-white-70 font-weight-light py-1">Monday - Friday</span>
+                <span class="d-block text-white-70 font-weight-light py-1">9AM - 6PM Eastern Time</span>
+              </address>
             </div>
-        </section>
-        <!-- View Change Section / End -->
-
-        <!-- Welcome Section -->
-        <section class="welcome-wrapper">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 mt-4">
-                        <div class="shadow-sm">
-
-                            <div class="lms-card p-3">
-                                <div class="row flex-column flex-md-row">
-                                    <div class="col mb-3 mb-md-0">
-                                        <div class="d-flex flex-row align-items-center">
-                                            <div class="avatar avatar-lg circle mr-3">
-                                                <a href="#" class="d-block" id="UserHistoryWrapperToggle">
-                                                    KD
-                                                </a>
-                                            </div>
-                                            <h2 class="h6 mb-0">
-                                                Hoşgeldin Kurtuluş, haydi öğrenmeye başlayalım.
-                                            </h2>
-                                        </div>
-                                    </div>
-                                    <div class="col orange-box text-lg-right">
-                                        <div class="d-flex justify-content-md-start flex-md-row-reverse align-items-center">
-                                            <div class="point ml-0 ml-md-3">
-                                                <div class="avatar avatar-lg circle">
-                                                    12
-                                                </div>
-                                            </div>
-                                            <div class="content text-left ml-3 ml-md-0">
-                                                <div class="title">Genel</div>
-                                                <div class="description">Başarı Oranı : 12/100</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
+            <!-- End Info -->
+          </div>
+  
+          <div class="col-lg-7">
+            <!-- Title -->
+            <div class="mb-4">
+              <h2 class="h3">Frequently asked question</h2>
             </div>
-        </section>
-        <!-- Welcome Section / End -->
-
-        <!-- User History Section -->
-        <section class="user-history-wrapper mt-4" style="display: none;">
-            <div class="bgcolor-blue-grey-100">
-                <div class="container">
-                    <div class="row position-relative">
-                        <div class="col arrow-up">
-                            <div class="py-4">
-                                
-                                <div id="UserHistoryCarousel" class="owl-carousel owl-theme white pt-2">
-                                    <div class="item pb-2">
-                                        <div class="lms-card p-0 shadow-sm">
-                                            <div class="d-flex align-self-center">
-                                                <div class="bg-image mh-100" style="background-image: url('https://picsum.photos/300/300');"></div>
-                                                <div class="content p-3">
-                                                    <span class="badge badge-success font-weight-bolder">ANKET</span>
-                                                    <h6 class="title my-3 ellipse two-lines">
-                                                        Git Complete: The definitive, step-by step guide to Git
-                                                    </h6>
-                                                    <p class="mb-0 color-green-600"><i class="fas fa-check-circle mr-2"></i> Anket 10 saat önce tamamlandı</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="item pb-2">
-                                        <div class="lms-card p-0 shadow-sm position-relative">
-                                            <div class="d-flex align-self-center">
-                                                <a href="#" class="stretched-link">Detaylar</a>
-                                                <div class="bg-image mh-100 d-flex justify-content-center align-items-center" style="background-image: url('https://picsum.photos/300/300');">
-                                                    <div class="btn btn-orange">KURSA GİT</div>
-                                                </div>
-                                                <div class="content p-3">
-                                                    <span class="badge badge-warning font-weight-bolder">KURS</span>
-                                                    <h6 class="title my-3 ellipse two-lines">
-                                                        Git Complete: The definitive, step-by step guide to Git
-                                                    </h6>
-                                                    <p class="mb-0 color-orange-dark"><i class="fas fa-clock mr-2"></i> Kurs 10 dakika sonra başlıyor</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="item pb-2">
-                                        <div class="lms-card p-0 shadow-sm">
-                                            <div class="d-flex align-self-center">
-                                                <div class="bg-image mh-100" style="background-image: url('https://picsum.photos/300/300');"></div>
-                                                <div class="content p-3">
-                                                    <span class="badge badge-success font-weight-bolder">ANKET</span>
-                                                    <h6 class="title my-3 ellipse two-lines">
-                                                        Git Complete: The definitive, step-by step guide to Git Git Complete: The definitive, step-by step guide to Git
-                                                    </h6>
-                                                    <p class="mb-0 color-green-600"><i class="fas fa-check-circle mr-2"></i> Anket 10 saat önce tamamlandı</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="item pb-2">
-                                        <div class="lms-card p-0 shadow-sm position-relative">
-                                            <div class="d-flex align-self-center">
-                                                <a href="#" class="stretched-link">Detaylar</a>
-                                                <div class="bg-image mh-100 d-flex justify-content-center align-items-center" style="background-image: url('https://picsum.photos/300/300');">
-                                                    <div class="btn btn-primary">SINAVA GİT</div>
-                                                </div>
-                                                <div class="content p-3">
-                                                    <span class="badge badge-primary font-weight-bolder">SINAV</span>
-                                                    <h6 class="title my-3 ellipse two-lines">
-                                                        Git Complete: The definitive, step-by step guide to Git
-                                                    </h6>
-                                                    <p class="mb-0 color-blue"><i class="fas fa-clock mr-2"></i> Sınav 1 gün sonra başlıyor</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
+            <!-- End Title -->
+  
+            <!-- Accordion -->
+            <div class="mb-5" id="basicsAccordion">
+              <div class="card card-collapse mb-3">
+                <div class="card-header card-collapse__header" id="basicsHeadingOne">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link btn-block d-flex justify-content-between card-collapse__btn collapsed"
+                            data-toggle="collapse"
+                            data-target="#basicsCollapseOne"
+                            aria-expanded="false"
+                            aria-controls="basicsCollapseOne">
+                      Do you have any built-in caching?
+  
+                      <span class="card-collapse__btn-arrow">
+                        <i class="fa fa-arrow-down card-collapse__btn-arrow-inner"></i>
+                      </span>
+                    </button>
+                  </h5>
                 </div>
+                <div id="basicsCollapseOne" class="collapse"
+                     aria-labelledby="basicsHeadingOne"
+                     data-parent="#basicsAccordion">
+                  <div class="card-body card-collapse__body">
+                    We aim high at being focused on building relationships with our clients and community. Using our creative gifts drives this foundation. Working together on the daily requires each individual to let the greater good of the team's work surface above their own ego.
+                  </div>
+                </div>
+              </div>
+  
+              <div class="card card-collapse mb-3">
+                <div class="card-header card-collapse__header" id="basicsHeadingTwo">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link btn-block d-flex justify-content-between card-collapse__btn collapsed"
+                            data-toggle="collapse"
+                            data-target="#basicsCollapseTwo"
+                            aria-expanded="false"
+                            aria-controls="basicsCollapseTwo">
+                      Can I add/upgrade my plan at any time?
+  
+                      <span class="card-collapse__btn-arrow">
+                        <i class="fa fa-arrow-down card-collapse__btn-arrow-inner"></i>
+                      </span>
+                    </button>
+                  </h5>
+                </div>
+                <div id="basicsCollapseTwo" class="collapse"
+                     aria-labelledby="basicsHeadingTwo"
+                     data-parent="#basicsAccordion">
+                  <div class="card-body card-collapse__body">
+                    It's important to stay detail oriented with every project we tackle. Staying focused allows us to turn every project we complete into something we love. We strive to embrace and drive change in our industry which allows us to keep our clients relevant and ready to adapt.
+                  </div>
+                </div>
+              </div>
+  
+              <div class="card card-collapse mb-3">
+                <div class="card-header card-collapse__header" id="basicsHeadingThree">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link btn-block d-flex justify-content-between card-collapse__btn collapsed"
+                            data-toggle="collapse"
+                            data-target="#basicsCollapseThree"
+                            aria-expanded="false"
+                            aria-controls="basicsCollapseThree">
+                      What access comes with my hosting plan?
+  
+                      <span class="card-collapse__btn-arrow">
+                        <i class="fa fa-arrow-down card-collapse__btn-arrow-inner"></i>
+                      </span>
+                    </button>
+                  </h5>
+                </div>
+                <div id="basicsCollapseThree" class="collapse"
+                     aria-labelledby="basicsHeadingThree"
+                     data-parent="#basicsAccordion">
+                  <div class="card-body card-collapse__body">
+                    As creatives, it's important that we strive to do work outside of obligation. This lets us stay ahead of the curve for our clients and internal projects. At the end of the day, it's important to not let being busy distract us from having fun. Smiling, laughing, and hanging helps us work together to achieve this.
+                  </div>
+                </div>
+              </div>
+  
+              <div class="card card-collapse">
+                <div class="card-header card-collapse__header" id="basicsHeadingFour">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link btn-block d-flex justify-content-between card-collapse__btn collapsed"
+                            data-toggle="collapse"
+                            data-target="#basicsCollapseFour"
+                            aria-expanded="false"
+                            aria-controls="basicsCollapseFour">
+                      How do I change my password?
+  
+                      <span class="card-collapse__btn-arrow">
+                        <i class="fa fa-arrow-down card-collapse__btn-arrow-inner"></i>
+                      </span>
+                    </button>
+                  </h5>
+                </div>
+                <div id="basicsCollapseFour" class="collapse"
+                     aria-labelledby="basicsHeadingFour"
+                     data-parent="#basicsAccordion">
+                  <div class="card-body card-collapse__body">
+                    Understanding who you are and what you want is our strategy for your brand. We are always figuring out ways to capture your vision, so people can get on board.
+                  </div>
+                </div>
+              </div>
             </div>
-        </section>
-        <!--  User History Section / End -->
-
-        <!-- Statistics -->
-        <section class="statistics-wrapper">
-            <div class="container py-4">
-                <div class="row">
-                    <div class="col-lg-4">
-                        <div class="lms-card mb-3 mb-lg-0">
-                            <div class="d-flex align-items-start justify-content-between">
-                                <div class="avatar avatar-lg circle">
-                                    <img src="assets/img/svg/courses.svg" class="w-50" alt="Kurslar" />
-                                </div>
-                                <div class="content mx-3 flex-grow-1">
-                                    <div class="title color-orange-dark">Kurslar</div>
-                                    <div class="description mt-2">
-                                        <p class="mb-1">Toplam İzlenme : 0/3 Saat</p>
-                                        <p class="mb-0">Kurs Sayısı : 8</p>
-                                    </div>
-                                </div>
-                                <div class="number color-orange-dark">3</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="lms-card mb-3 mb-lg-0">
-                            <div class="d-flex align-items-start justify-content-between">
-                                <div class="avatar avatar-lg circle">
-                                    <img src="assets/img/svg/exams.svg" class="w-50" alt="Sınavlar" />
-                                </div>
-                                <div class="content mx-3 flex-grow-1">
-                                    <div class="title color-blue">Sınavlar</div>
-                                    <div class="description mt-2">
-                                        <p class="mb-1">Başarı Oranı : 50/100</p>
-                                        <p class="mb-0">Sınav Sayısı : 8</p>
-                                    </div>
-                                </div>
-                                <div class="number text-right color-blue">5</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="lms-card mb-3 mb-lg-0">
-                            <div class="d-flex align-items-start justify-content-between">
-                                <div class="avatar avatar-lg circle">
-                                    <img src="assets/img/svg/surveys.svg" class="w-50" alt="Anketler" />
-                                </div>
-                                <div class="content mx-3 flex-grow-1">
-                                    <div class="title color-green-600">Anketler</div>
-                                    <div class="description mt-2">
-                                        <p class="mb-1">Başarı Oranı : 50/100</p>
-                                        <p class="mb-0">Anket Sayısı : 8</p>
-                                    </div>
-                                </div>
-                                <div class="number color-green-600">7</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Statistics / End -->
-
-        <!-- Upcoming Courses Section -->
-        <section class="upcoming-courses-wrapper">
-            <div class="container">
-                <div class="row">
-                    <div class="col">
-                        <h4 class="my-3 color-blue-grey-800">Yaklaşan Kurslarım</h4>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col">
-                        <div class="bg-white rounded shadow-sm mb-5">
-                            
-                            <div id="UpcomingCoursesCarousel" class="owl-carousel owl-theme white">
-                                <div class="item h-100">
-                                    <div class="lms-card position-relative">
-                                        <div class="d-flex flex-column">
-                                            <div class="bg-image mh-100" style="background-image: url('https://picsum.photos/300/300');"></div>
-                                            <div class="content">
-                                                <h6 class="title my-3 ellipse two-lines w-100">
-                                                    Git Complete: The definitive, step-by step guide to Git Git Complete: The definitive, step-by step guide to Git                                                    
-                                                </h6>
-                                                <p class="mb-3 color-blue-grey-500"><i class="fas fa-calendar-alt color-blue-grey-600 mr-2"></i> 30 EYLÜL 2020 15:00</p>
-                                            </div>
-                                            <a href="#" class="btn btn-outline-light stretched-link">KURSU İNCELE</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="item h-100">
-                                    <div class="lms-card position-relative">
-                                        <div class="d-flex flex-column">
-                                            <div class="bg-image mh-100" style="background-image: url('https://picsum.photos/300/300');"></div>
-                                            <div class="content">
-                                                <h6 class="title my-3 ellipse two-lines w-100">
-                                                    Git Complete: The definitive, step-by step guide to Git Git Complete: The definitive, step-by step guide to Git                                                    
-                                                </h6>
-                                                <p class="mb-3 color-blue-grey-500"><i class="fas fa-calendar-alt color-blue-grey-600 mr-2"></i> 30 EYLÜL 2020 15:00</p>
-                                            </div>
-                                            <a href="#" class="btn btn-outline-light stretched-link">KURSU İNCELE</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="item h-100">
-                                    <div class="lms-card position-relative">
-                                        <div class="d-flex flex-column">
-                                            <div class="bg-image mh-100" style="background-image: url('https://picsum.photos/300/300');"></div>
-                                            <div class="content">
-                                                <h6 class="title my-3 ellipse two-lines w-100">
-                                                    Git Complete: The definitive, step-by step guide to Git Git Complete: The definitive, step-by step guide to Git                                                    
-                                                </h6>
-                                                <p class="mb-3 color-blue-grey-500"><i class="fas fa-calendar-alt color-blue-grey-600 mr-2"></i> 30 EYLÜL 2020 15:00</p>
-                                            </div>
-                                            <a href="#" class="btn btn-outline-light stretched-link">KURSU İNCELE</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="item h-100">
-                                    <div class="lms-card position-relative">
-                                        <div class="d-flex flex-column">
-                                            <div class="bg-image mh-100" style="background-image: url('https://picsum.photos/300/300');"></div>
-                                            <div class="content">
-                                                <h6 class="title my-3 ellipse two-lines w-100">
-                                                    Git Complete: The definitive, step-by step guide to Git Git Complete: The definitive, step-by step guide to Git                                                    
-                                                </h6>
-                                                <p class="mb-3 color-blue-grey-500"><i class="fas fa-calendar-alt color-blue-grey-600 mr-2"></i> 30 EYLÜL 2020 15:00</p>
-                                            </div>
-                                            <a href="#" class="btn btn-outline-light stretched-link">KURSU İNCELE</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="item h-100">
-                                    <div class="lms-card position-relative">
-                                        <div class="d-flex flex-column">
-                                            <div class="bg-image mh-100" style="background-image: url('https://picsum.photos/300/300');"></div>
-                                            <div class="content">
-                                                <h6 class="title my-3 ellipse two-lines w-100">
-                                                    Git Complete: The definitive, step-by step guide to Git Git Complete: The definitive, step-by step guide to Git                                                    
-                                                </h6>
-                                                <p class="mb-3 color-blue-grey-500"><i class="fas fa-calendar-alt color-blue-grey-600 mr-2"></i> 30 EYLÜL 2020 15:00</p>
-                                            </div>
-                                            <a href="#" class="btn btn-outline-light stretched-link">KURSU İNCELE</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Upcoming Courses Section / End -->
-
-        <!-- My Content Section -->
-        <section class="my-content-wrapper">
-            <div class="container">
-                <div class="row">
-                    <div class="col">
-                        <h4 class="mb-3 color-blue-grey-800">Bana ait İçerikler</h4>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col">
-                        <div class="bg-white rounded shadow-sm mb-4">
-                            
-                            <div class="row no-gutters">
-                                <div class="col-lg-4">
-                                    <div class="d-flex flex-column content-box">
-                                        <div class="d-flex align-items-center justify-content-between p-4 header">
-                                            <h6 class="mb-0">Eğitimlerim</h6>
-                                            <a href="#">Tümünü Göster</a>
-                                        </div>
-                                        <div class="content">
-                                            <ul class="pt-4">
-                                                <li class="px-4">
-                                                    <a href="#">
-                                                        <div class="d-flex align-items-center justify-content-start">
-                                                            <div class="bg-image rounded border mr-3" style="background-image: url('https://picsum.photos/300/300');"></div>
-                                                            <div class="description ellipse three-lines">
-                                                                Advanced CSS and Sass: Flexbox, Grid, Animations and More!
-                                                            </div>
-                                                        </div>
-                                                    </a>
-                                                </li>
-                                                <li class="px-4">
-                                                    <a href="#">
-                                                        <div class="d-flex align-items-center justify-content-start">
-                                                            <div class="bg-image rounded border mr-3" style="background-image: url('https://picsum.photos/300/300');"></div>
-                                                            <div class="description ellipse three-lines">
-                                                                Advanced CSS and Sass: Flexbox, Grid, Animations and More!
-                                                            </div>
-                                                        </div>
-                                                    </a>
-                                                </li>
-                                                <li class="px-4">
-                                                    <a href="#">
-                                                        <div class="d-flex align-items-center justify-content-start">
-                                                            <div class="bg-image rounded border mr-3" style="background-image: url('https://picsum.photos/300/300');"></div>
-                                                            <div class="description ellipse three-lines">
-                                                                Advanced CSS and Sass: Flexbox, Grid, Animations and More!
-                                                            </div>
-                                                        </div>
-                                                    </a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4 border-left border-right">
-                                    <div class="d-flex flex-column content-box">
-                                        <div class="d-flex align-items-center justify-content-between p-4 header">
-                                            <h6 class="mb-0">Sınavlarım</h6>
-                                            <a href="#">Tümünü Göster</a>
-                                        </div>
-                                        <div class="content">
-                                            <ul class="pt-4">
-                                                <li class="px-4">
-                                                    <a href="#">
-                                                        <div class="d-flex align-items-center justify-content-start">
-                                                            <div class="bg-image rounded border mr-3" style="background-image: url('https://picsum.photos/300/300');"></div>
-                                                            <div class="description ellipse three-lines">
-                                                                Advanced CSS and Sass: Flexbox, Grid, Animations and More!
-                                                            </div>
-                                                        </div>
-                                                    </a>
-                                                </li>
-                                                <li class="px-4">
-                                                    <a href="#">
-                                                        <div class="d-flex align-items-center justify-content-start">
-                                                            <div class="bg-image rounded border mr-3" style="background-image: url('https://picsum.photos/300/300');"></div>
-                                                            <div class="description ellipse three-lines">
-                                                                Advanced CSS and Sass: Flexbox, Grid, Animations and More!
-                                                            </div>
-                                                        </div>
-                                                    </a>
-                                                </li>
-                                                <li class="px-4">
-                                                    <a href="#">
-                                                        <div class="d-flex align-items-center justify-content-start">
-                                                            <div class="bg-image rounded border mr-3" style="background-image: url('https://picsum.photos/300/300');"></div>
-                                                            <div class="description ellipse three-lines">
-                                                                Advanced CSS and Sass: Flexbox, Grid, Animations and More!
-                                                            </div>
-                                                        </div>
-                                                    </a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4">
-                                    <div class="d-flex flex-column content-box">
-                                        <div class="d-flex align-items-center justify-content-between p-4 header">
-                                            <h6 class="mb-0">Anketlerim</h6>
-                                            <a href="#">Tümünü Göster</a>
-                                        </div>
-                                        <div class="content">
-                                            <ul class="pt-4">
-                                                <li class="px-4">
-                                                    <a href="#">
-                                                        <div class="d-flex align-items-center justify-content-start">
-                                                            <div class="bg-image rounded border mr-3" style="background-image: url('https://picsum.photos/300/300');"></div>
-                                                            <div class="description ellipse three-lines">
-                                                                Advanced CSS and Sass: Flexbox, Grid, Animations and More!
-                                                            </div>
-                                                        </div>
-                                                    </a>
-                                                </li>
-                                                <li class="px-4">
-                                                    <a href="#">
-                                                        <div class="d-flex align-items-center justify-content-start">
-                                                            <div class="bg-image rounded border mr-3" style="background-image: url('https://picsum.photos/300/300');"></div>
-                                                            <div class="description ellipse three-lines">
-                                                                Advanced CSS and Sass: Flexbox, Grid, Animations and More!
-                                                            </div>
-                                                        </div>
-                                                    </a>
-                                                </li>
-                                                <li class="px-4">
-                                                    <a href="#">
-                                                        <div class="d-flex align-items-center justify-content-start">
-                                                            <div class="bg-image rounded border mr-3" style="background-image: url('https://picsum.photos/300/300');"></div>
-                                                            <div class="description ellipse three-lines">
-                                                                Advanced CSS and Sass: Flexbox, Grid, Animations and More!
-                                                            </div>
-                                                        </div>
-                                                    </a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- My Content Section / End -->
+            <!-- End Accordion -->
+  
+            <a href="../pages/help.html">See all FAQs</a>
+          </div>
+        </div>
+    </div>
+    <!-- End FAQ Section -->
 
     </div>
 </div>

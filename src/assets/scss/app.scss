@@ -1,47 +1,49 @@
 // Import Global/index scss
 @import './global/index';
 
+@import './../theme/space/css-import.scss';
+
 // Import vendor scss
-@import './vendor/bootstrap-custom';
-@import './vendor/sass-css3-mixins';
-@import './vendor/owl-carousel';
+// @import './vendor/bootstrap-custom';
+// @import './vendor/sass-css3-mixins';
+// @import './vendor/owl-carousel';
 @import './vendor/font-awesome';
-@import './vendor/slidePanel';
-@import './vendor/magnafic-popup';
-@import './vendor/bootstrap-star-rating';
-@import './vendor/dropify';
-@import './vendor/datatable';
-@import './vendor/sweet-alert2';
+// @import './vendor/slidePanel';
+// @import './vendor/magnafic-popup';
+// @import './vendor/bootstrap-star-rating';
+// @import './vendor/dropify';
+// @import './vendor/datatable';
+// @import './vendor/sweet-alert2';
 
 // Import Fonts scss
-@import './fonts/montserrat';
+ @import './fonts/roboto';
 
 // Import Plugins scss
-@import './plugins/owl-carousel';
-@import './plugins/slidePanel';
+// @import './plugins/owl-carousel';
+// @import './plugins/slidePanel';
 
 // Import Components scss
-@import './components/bootstrap/dropdown-menu';
-@import './components/bootstrap/badge';
-@import './components/bootstrap/buttons';
-@import './components/bootstrap/pagination';
-@import './components/header';
-@import './components/nav';
-@import './components/footer';
-@import './components/page-header';
-@import './components/tabs';
-@import './components/card';
-@import './components/avatar';
-@import './components/comments';
-@import './components/accordion';
+// @import './components/bootstrap/dropdown-menu';
+// @import './components/bootstrap/badge';
+// @import './components/bootstrap/buttons';
+// @import './components/bootstrap/pagination';
+// @import './components/header';
+// @import './components/nav';
+// @import './components/footer';
+// @import './components/page-header';
+// @import './components/tabs';
+// @import './components/card';
+// @import './components/avatar';
+// @import './components/comments';
+// @import './components/accordion';
 
 // Import Pages scss
- @import './pages/education-detail';
- @import './pages/watch-education';
- @import './pages/dashboard';
- @import './pages/category-list';
- @import './pages/card-over-view';
- @import './pages/my-courses';
+//  @import './pages/education-detail';
+//  @import './pages/watch-education';
+//  @import './pages/dashboard';
+//  @import './pages/category-list';
+//  @import './pages/card-over-view';
+//  @import './pages/my-courses';
 .page{
     overflow: hidden;
 }

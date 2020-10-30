@@ -1,14 +1,14 @@
-import select2 from './select2';
-import intlTelInput from './intl-tel-input';
-import bootstrapDatepicker from './bootstrap-datepicker';
-import owlCarousel from './owl-carousel';
-import bootstrapDefault from './bootstrap-default';
-import slidePanel from './slidePanel';
-import lazy from './lazy';
-import googlemap from './googlemap';
-import bootstrapStarRating from './bootstrap-star-rating';
-import dropify from './dropify';
-import datatable from './datatable';
+// import select2 from './select2';
+// import intlTelInput from './intl-tel-input';
+// import bootstrapDatepicker from './bootstrap-datepicker';
+// import owlCarousel from './owl-carousel';
+// import bootstrapDefault from './bootstrap-default';
+// import slidePanel from './slidePanel';
+// import lazy from './lazy';
+// import googlemap from './googlemap';
+// import bootstrapStarRating from './bootstrap-star-rating';
+// import dropify from './dropify';
+// import datatable from './datatable';
 
 export default function plugins() {
 
@@ -23,38 +23,38 @@ export default function plugins() {
     
         _this.init = function() {
     
-            select2();
-            _this.select2.init();
+            // select2();
+            // _this.select2.init();
 
-            intlTelInput();
-            _this.intlTelInput.init();
+            // intlTelInput();
+            // _this.intlTelInput.init();
 
-            bootstrapDatepicker();
-            _this.bootstrapDatepicker.init();
+            // bootstrapDatepicker();
+            // _this.bootstrapDatepicker.init();
 
-            owlCarousel();
-            _this.owlCarousel.init();
+            // owlCarousel();
+            // _this.owlCarousel.init();
 
-            bootstrapDefault();
-            _this.bootstrapDefault.init();
+            // bootstrapDefault();
+            // _this.bootstrapDefault.init();
 
-            slidePanel();
-            _this.slidePanel.init();
+            // slidePanel();
+            // _this.slidePanel.init();
 
-            lazy();
-            _this.lazy.init();
+            // lazy();
+            // _this.lazy.init();
 
-            googlemap();
-            _this.googlemap.init();
+            // googlemap();
+            // _this.googlemap.init();
 
-            bootstrapStarRating();
-            _this.bootstrapStarRating.init();
+            // bootstrapStarRating();
+            // _this.bootstrapStarRating.init();
 
-            dropify();
-            _this.dropify.init();
+            // dropify();
+            // _this.dropify.init();
 
-            datatable();
-            _this.datatable.init();
+            // datatable();
+            // _this.datatable.init();
         };
     
     })(Site);
