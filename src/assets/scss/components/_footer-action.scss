@@ -1,0 +1,61 @@
+.footer-action {
+    position:fixed;
+    bottom:0;
+    z-index:10;
+    width:100%;
+    .footer-action-wrapper{
+        position:relative;
+        background: rgb(154,132,58);
+        background: linear-gradient(270deg, rgba(154,132,58,1) 0%, rgba(213,210,94,1) 50%, rgba(154,132,58,1) 100%);
+        border-radius:10px 10px 0 0;
+        .image{
+            position:absolute;
+            bottom:0;
+            left:30px;
+            img{
+                width:110px;
+            }
+        }
+        .text{
+            margin-left:150px;
+            color:$color-white;
+            font-size:23px;
+            font-weight:bold;
+        }
+        .action{
+            .sac-analizi{
+                border-radius: 10px;
+                color:$color-white;
+                border:2px solid $color-white;
+                background: rgb(154,132,58);
+                i{
+                    font-size:24px;
+                }
+            }
+            .whatsapp{
+                border-radius: 10px;
+                color:$color-white;
+                border:2px solid $color-white;
+                background: rgb(40,180,62);
+                background: linear-gradient(45deg, rgba(40,180,62,1) 0%, rgba(85,207,97,1) 100%);
+                i{
+                    font-size:24px;
+                }
+            }
+        }
+    }
+    .btn-close{
+        position:absolute;
+        top:0;
+        right:0;
+        opacity:0.5;
+        &:hover{
+            opacity:1;
+        }
+        i{
+            padding:10px;
+            font-size:16px;
+            color:#fff;
+        }
+    }
+}

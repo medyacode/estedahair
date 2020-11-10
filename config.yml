@@ -33,6 +33,7 @@ PATHS:
   staticFiles:
     - "src/robots.txt"
     - "src/favicon.ico"
+    - "src/favicon.png"
     - "src/.htaccess"
     #- "src/site.webmanifest"
   # Additional JS files to copy to "dist/assets/js"

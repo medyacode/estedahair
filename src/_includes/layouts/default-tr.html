@@ -19,12 +19,15 @@
       {% include "footer.html" ignore missing %}
     </div>
 
+    {% include "components/footer-action.html" ignore missing %}
+
     <script src="assets/js/app.js"></script>
     <script type="text/javascript">
       $(function(){
         Site.init();
       });
     </script>
+    
     <!-- JS Global Compulsory -->
     <script src="assets/theme/space/vendor/jquery/dist/jquery.min.js"></script>
     <script src="assets/theme/space/vendor/jquery-migrate/dist/jquery-migrate.min.js"></script>
@@ -41,6 +44,7 @@
     <script src="assets/theme/space/vendor/dzsparallaxer/dzsparallaxer.js"></script>
     <script src="assets/theme/space/vendor/cubeportfolio/js/jquery.cubeportfolio.min.js"></script>
     <script src="assets/theme/space/vendor/player.js/dist/player.min.js"></script>
+    <script src="assets/theme/space/vendor/fancybox/jquery.fancybox.min.js"></script>
 
     <!-- JS Space -->
     <script src="assets/theme/space/js/hs.core.js"></script>
@@ -55,6 +59,7 @@
     <script src="assets/theme/space/js/components/hs.cubeportfolio.js"></script>
     <script src="assets/theme/space/js/components/hs.video-player.js"></script>
     <script src="assets/theme/space/js/components/hs.go-to.js"></script>
+    <script src="assets/theme/space/js/components/hs.fancybox.js"></script>
 
     <!-- JS Plugins Init. -->
     <script>
@@ -115,6 +120,10 @@
 
         // initialization of go to
         $.HSCore.components.HSGoTo.init('.js-go-to');
+
+        // initialization of fancybox
+        $.HSCore.components.HSFancyBox.init('.js-fancybox');
+
       });
     </script>
 
