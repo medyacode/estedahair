@@ -1,6 +1,6 @@
 // require('./bootstrap-custom')
 // require('./select2-custom')
-// require('./international-telephone-input-custom')
+require('./international-telephone-input-custom')
 // require('./bootstrap-datepicker-custom')
 // require('./owl-carousel-custom')
 // require('./jquery-slidePanel')

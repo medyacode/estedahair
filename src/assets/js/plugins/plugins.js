@@ -1,5 +1,5 @@
 // import select2 from './select2';
-// import intlTelInput from './intl-tel-input';
+import intlTelInput from './intl-tel-input';
 // import bootstrapDatepicker from './bootstrap-datepicker';
 // import owlCarousel from './owl-carousel';
 // import bootstrapDefault from './bootstrap-default';
@@ -26,8 +26,8 @@ export default function plugins() {
             // select2();
             // _this.select2.init();
 
-            // intlTelInput();
-            // _this.intlTelInput.init();
+            intlTelInput();
+            _this.intlTelInput.init();
 
             // bootstrapDatepicker();
             // _this.bootstrapDatepicker.init();

@@ -13,9 +13,8 @@ bodyClass: contact
 
         <!-- Hero Section -->
         <div class="border-bottom bg-primary">
-          <div class="container space-1">
-            <h1 class="text-white">İletişim</h1>
-            <!-- <p class="lead mb-0 text-white">Our duty towards you is to share our experience we're reaching in our work path with you.</p> -->
+          <div class="container py-4">
+            <h1 class="text-white font-size-28 mb-0">İletişim</h1>
           </div>
         </div>
         <!-- Hero Section / End -->
@@ -39,13 +38,13 @@ bodyClass: contact
                       <li class="py-1">Whatsapp: +90 (537) 947 57 33</li>
                       <li class="py-1">E-Posta: <a href="mailto:info@estedahair.com">info@estedahair.com</a></li>
                     </ul>
-                    <h3 class="h6">Çalışma Saatleri:</h3>
-                    <span class="d-block font-size-14 text-secondary mb-3">Pazartesi - Cuma: 09:00 - 18:00</span>
                   </address>
                 </div>
 
                 <div class="col-sm-6">
-                  <img class="img-fluid" src="assets/img/webp/video-eda-yildiz-esteda-hair-hospital.webp" alt="Esteda Hair Hospital">
+                  <h3 class="h6">Çalışma Saatleri:</h3>
+                  <span class="d-block font-size-14 text-secondary mb-3">Pazartesi - Cuma: 09:00 - 18:00</span>
+                  <img class="img-fluid rounded" src="assets/img/webp/esteda-hair-hospital.webp" alt="Esteda Hair Hospital">
                 </div>
               </div>
               <!-- End Contacts Info -->
@@ -125,12 +124,12 @@ bodyClass: contact
                 <div class="col-sm-6 mb-6">
                   <div class="js-form-message">
                     <div class="js-focus-state input-group form">
-                      <input class="form-control form__input" type="number" name="phone" required
-                            placeholder="Telefon Numarası"
-                            aria-label="Telefon Numarası"
-                            data-msg="Lütfen telefon numaranızı giriniz"
+                      <input type="tel" data-plugin="intlTelInput" id="phone" name="phone" class="form-control form__input" required
+                            aria-label="phone"
+                            data-msg="Lütfen telefon alanını boş bırakmayınız."
                             data-error-class="u-has-error"
-                            data-success-class="u-has-success">
+                            data-success-class="u-has-success" 
+                            autocomplete="off">
                     </div>
                   </div>
                 </div>

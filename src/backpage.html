@@ -13,9 +13,8 @@ bodyClass: backpage
 
         <!-- Hero Section -->
         <div class="border-bottom bg-primary">
-          <div class="container space-1">
-            <h1 class="text-white">Saç Ekimi</h1>
-            <!-- <p class="lead mb-0 text-white">Our duty towards you is to share our experience we're reaching in our work path with you.</p> -->
+          <div class="container py-4">
+            <h1 class="text-white font-size-28 mb-0">Saç Ekimi</h1>
           </div>
         </div>
         <!-- Hero Section / End -->
@@ -27,31 +26,62 @@ bodyClass: backpage
               sdfsaf
             </div>
             <div class="col-xl-4">
-              <div class="d-flex rounded align-items-start gradient-overlay-half-dark-v2 bg-img-hero height-600 px-0" data-bg-img-src="assets/img/webp/hair-transplant.webp">
+              <div class="d-flex rounded align-items-end gradient-overlay-half-dark-v2 bg-img-hero-bottom height-500 px-0" data-bg-img-src="assets/img/webp/hair-transplant.webp">
                 <div class="w-100 text-center shadow-sm p-5">
                   <!-- Title -->
                   <div class="mb-5">
-                    <h3 class="text-white">Esteda Hair Hospital, <strong class="text-primary">Saç Ekimi</strong></h3>
+                    <h3 class="text-gray-700 font-size-18">Esteda Hair Hospital<br/><strong class="text-blue font-size-28">Saç Ekimi</strong></h3>
                   </div>
                   <!-- End Title -->
       
                   <!-- Info -->
                   <div class="mb-5">
-                    <h4 class="h6 text-primary">Telefon Numarası</h4>
+                    <h4 class="h6 text-blue">Telefon Numarası</h4>
                     <span class="d-block text-white">+90 (537) 947 57 33</span>
                   </div>
                   <!-- End Info -->
       
                   <!-- Input -->
                   <form class="js-validate js-form-message">
-                    <div class="js-focus-state input-group form form--no-brd form--no-addon-brd">
-                      <input type="email" class="form-control form__input" name="email" required
-                             placeholder="Enter your email address"
-                             aria-label="Enter your email address">
-                      <span class="input-group-append form__append">
-                        <button type="submit" class="btn btn-sm btn-primary">Subscribe</button>
-                      </span>
+                    
+                    <!-- Input -->
+                    <div class="js-form-message mb-3 mb-lg-3">
+                      <div class="js-focus-state input-group form">
+                        <div class="input-group-prepend form__prepend">
+                          <span class="input-group-text form__text">
+                            <span class="fa fa-user form__text-inner"></span>
+                          </span>
+                        </div>
+                        <input type="text" class="form-control form__input" name="name" required
+                              placeholder="Ad ve Soyad"
+                              aria-label="name"
+                              data-msg="Lütfen ad ve soyad alanını boş bırakmayınız."
+                              data-error-class="u-has-error"
+                              data-success-class="u-has-success">
+                      </div>
                     </div>
+                    <!-- End Input -->
+
+                    <!-- Input -->
+                    <div class="js-form-message mb-3 mb-lg-3">
+                      <div class="js-focus-state input-group form">
+
+                        <input type="tel" data-plugin="intlTelInput" id="phone" name="phone" class="form-control form__input" required
+                          aria-label="phone"
+                          data-msg="Lütfen telefon alanını boş bırakmayınız."
+                          data-error-class="u-has-error"
+                          data-success-class="u-has-success" 
+                          autocomplete="off">
+
+                      
+                      </div>
+                    </div>
+                    <!-- End Input -->
+
+                    <button type="submit" class="btn px-5 btn-md btn-blue">
+                      Gönder
+                    </button>
+
                   </form>
                   <!-- End Input -->
                 </div>

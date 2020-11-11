@@ -7465,7 +7465,7 @@ button.bg-blue:focus {
 }
 
 .bg-primary-soft {
-  background-color: rgba(33, 200, 122, 0.1) !important;
+  background-color: rgba(213, 219, 112, 0.2) !important;
 }
 
 a.bg-primary-soft:hover, a.bg-primary-soft:focus,
@@ -12620,7 +12620,7 @@ h1 > a, h2 > a, h3 > a, h4 > a, h5 > a, h6 > a,
 
 h1 > a:hover, h2 > a:hover, h3 > a:hover, h4 > a:hover, h5 > a:hover, h6 > a:hover,
 .h1 > a:hover, .h2 > a:hover, .h3 > a:hover, .h4 > a:hover, .h5 > a:hover, .h6 > a:hover {
-  color: #168652;
+  color: #af9b32;
 }
 
 h1.text-white > a, h2.text-white > a, h3.text-white > a, h4.text-white > a, h5.text-white > a, h6.text-white > a,
@@ -13044,7 +13044,7 @@ button:focus {
 }
 
 .u-header__navbar-brand-mobile {
-  width: 3.125rem;
+  width: 8.125rem;
 }
 
 .u-header__navbar-nav {
@@ -17886,7 +17886,7 @@ button:focus {
 }
 
 .card-frame.active, .card-frame:hover {
-  border-color: rgba(33, 200, 122, 0.7);
+  border-color: rgba(205, 185, 80, 0.7);
   box-shadow: 0 0 2.1875rem rgba(140, 152, 164, 0.25);
 }
 
@@ -20302,7 +20302,7 @@ button:focus {
     height: 15vh;
   }
   .height-85vh--lg {
-    height: 85vh;
+    height: 50vh;
   }
   .height-100vh--lg {
     height: 100vh;

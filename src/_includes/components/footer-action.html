@@ -1,26 +1,37 @@
 <div class="footer-action">
     <div class="container">
         <div class="footer-action-wrapper">
-            <div class="d-flex align-items-center justify-content-between p-4">
+            <div class="d-flex flex-column flex-xl-row align-items-center justify-content-between p-4">
                 <div class="image">
                     <img src="assets/img/webp/eda.webp" />
                 </div>
-                <div class="text">
-                    Saç Ekim işleminiz için buradayız
-                </div>
-                <div class="action pr-4">
-                    <a id="BtnSacAnalizi" class="btn sac-analizi mr-0 mr-lg-3">
-                        <div class="d-flex align-items-center">
-                            <i class="fas fa-camera-retro mr-2"></i>
-                            <span>Ücretsiz Saç Analizi</span>
+
+                <div class="content-wrapper">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 col-lg-6">
+                                <div class="text text-center text-lg-left py-2">
+                                    Saç Ekim işleminiz için buradayız
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-6 text-center text-lg-right">
+                                <div class="action">
+                                    <a id="BtnSacAnalizi" class="btn sac-analizi mr-0 mr-lg-3">
+                                        <div class="d-flex align-items-center">
+                                            <i class="fas fa-camera-retro mr-2"></i>
+                                            <span>Ücretsiz Saç Analizi</span>
+                                        </div>
+                                    </a>
+                                    <a id="BtnWhatsapp" class="btn whatsapp" target="_blank" href="https://api.whatsapp.com/send?phone=905301751670&text=Merhaba, Saç ekimi hakkında bilgi almak istiyorum.">
+                                        <div class="d-flex align-items-center">
+                                            <i class="fab fa-whatsapp mr-2"></i> 
+                                            <span>Whatsapp</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
                         </div>
-                    </a>
-                    <a id="BtnWhatsapp" class="btn whatsapp" target="_blank" href="https://api.whatsapp.com/send?phone=905301751670&text=Merhaba, Saç ekimi hakkında bilgi almak istiyorum.">
-                        <div class="d-flex align-items-center">
-                            <i class="fab fa-whatsapp mr-2"></i> 
-                            <span>Whatsapp</span>
-                        </div>
-                    </a>
+                    </div>
                 </div>
             </div>
             <div onclick="$('.footer-action').hide(); $('footer').removeClass('pb-9');" class="btn-close cursor-pointer">

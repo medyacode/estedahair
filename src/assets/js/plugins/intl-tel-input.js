@@ -32,6 +32,9 @@ export default function intlTelInput() {
                                 success(countryCode);
                                 });
                             },
+                            customPlaceholder: function(selectedCountryPlaceholder, selectedCountryData) {
+                                return "e.g. " + selectedCountryPlaceholder;
+                            },
                         });
                     }
                 });
