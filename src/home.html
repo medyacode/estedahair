@@ -50,49 +50,53 @@ bodyClass: home
             </p>
           </div>
         </div>
-        <div class="row">
-          <div class="col-12 col-lg-5 col-xl-5">
-            <!-- Input -->
-            <div class="js-form-message mb-3 mb-lg-0">
-              <div class="js-focus-state input-group form">
-                <div class="input-group-prepend form__prepend">
-                  <span class="input-group-text form__text">
-                    <span class="fa fa-user form__text-inner"></span>
-                  </span>
+        
+        <form class="js-validate">
+          <div class="row">
+              <div class="col-12 col-lg-5 col-xl-5">
+                <!-- Input -->
+                <div class="js-form-message mb-3 mb-lg-0">
+                  <div class="js-focus-state input-group form">
+                    <div class="input-group-prepend form__prepend">
+                      <span class="input-group-text form__text">
+                        <span class="fa fa-user form__text-inner"></span>
+                      </span>
+                    </div>
+                    <input type="text" class="form-control form__input" name="name" required
+                          placeholder="Ad ve Soyad"
+                          aria-label="name"
+                          data-msg="Lütfen ad ve soyad alanını boş bırakmayınız."
+                          data-error-class="u-has-error"
+                          data-success-class="u-has-success">
+                  </div>
                 </div>
-                <input type="text" class="form-control form__input" name="name" required
-                      placeholder="Ad ve Soyad"
-                      aria-label="name"
-                      data-msg="Lütfen ad ve soyad alanını boş bırakmayınız."
+                <!-- End Input -->
+              </div>
+              <div class="col-12 col-lg-5 col-xl-5">
+                <!-- Input -->
+                <div class="js-form-message mb-3 mb-lg-0">
+                  <div class="js-focus-state input-group form">
+
+                    <input type="tel" data-plugin="intlTelInput" id="phone" name="phone" class="form-control form__input" required
+                      aria-label="phone"
+                      data-msg="Lütfen telefon alanını boş bırakmayınız."
                       data-error-class="u-has-error"
-                      data-success-class="u-has-success">
-              </div>
-            </div>
-            <!-- End Input -->
-          </div>
-          <div class="col-12 col-lg-5 col-xl-5">
-            <!-- Input -->
-            <div class="js-form-message mb-3 mb-lg-0">
-              <div class="js-focus-state input-group form">
+                      data-success-class="u-has-success" 
+                      autocomplete="off">
 
-                <input type="tel" data-plugin="intlTelInput" id="phone" name="phone" class="form-control form__input" required
-                  aria-label="phone"
-                  data-msg="Lütfen telefon alanını boş bırakmayınız."
-                  data-error-class="u-has-error"
-                  data-success-class="u-has-success" 
-                  autocomplete="off">
-
-               
+                  
+                  </div>
+                </div>
+                <!-- End Input -->
               </div>
-            </div>
-            <!-- End Input -->
+              <div class="col-12 col-lg-2 col-xl-2">
+                <button type="submit" class="btn btn-block btn-md btn-primary">
+                  Gönder
+                </button>
+              </div>
           </div>
-          <div class="col-12 col-lg-2 col-xl-2">
-            <button type="submit" class="btn btn-block btn-md btn-primary">
-              Gönder
-            </button>
-          </div>
-        </div>
+        </form>
+
       </div>
     </div>
     <!-- End / Biz Size Ulaşalım -->
