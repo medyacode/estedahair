@@ -40,12 +40,8 @@
 @import './components/footer-action';
 
 // Import Pages scss
-//  @import './pages/education-detail';
-//  @import './pages/watch-education';
-//  @import './pages/dashboard';
-//  @import './pages/category-list';
-//  @import './pages/card-over-view';
-//  @import './pages/my-courses';
+@import './pages/backpage';
+
 .page{
     overflow: hidden;
 }

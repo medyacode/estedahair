@@ -19,7 +19,7 @@
 
         .content-wrapper{
             margin-left:150px;
-            width: 100%;
+            width: calc(100% - 150px);
             .text{
                 color:$color-white;
                 font-size:23px;
@@ -64,6 +64,42 @@
     }
 }
 
-@media (max-width:767px) {
+@media (max-width:1200px) {
+    .footer-action{
+        .footer-action-wrapper{
+            .content-wrapper{
+                .text{
+                    font-size:18px;
+                    padding-top: 0 !important;
+                }
+            }
+        }
+    }
+}
 
+@media (max-width:767px) {
+    .footer-action{
+        .footer-action-wrapper{
+            .image{
+                left:10px;
+                img{
+                    width: 90px;
+                }
+            }
+            .content-wrapper{
+                margin-left:80px;
+                width: calc(100% - 60px);
+                .text{
+                    font-size:16px !important;
+                    padding-top: 0 !important;
+                }
+                .sac-analizi{
+                    display: none;
+                }
+                .whatsapp{
+                    padding: 5px 15px;
+                }
+            }
+        }
+    }
 }
