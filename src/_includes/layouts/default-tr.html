@@ -73,6 +73,15 @@
           breakpoint: 991,
           hideTimeOut: 0
         });
+
+        var typed = new Typed(".u-text-animation-v2.u-text-animation-v2--typing", {
+          strings: ["Profesyonel Saç Ekimi", "Fue Saç Ekimi", "DHI Saç Ekimi", "Safir Fue Saç Ekimi", "Sakal Ekimi", "Kaş Ekimi"],
+          typeSpeed: 80,
+          loop: true,
+          backSpeed: 50,
+          backDelay: 3000
+        });
+
       });
 
       $(document).on('ready', function () {
@@ -125,14 +134,6 @@
 
         // initialization of fancybox
         $.HSCore.components.HSFancyBox.init('.js-fancybox');
-
-        var typed = new Typed(".u-text-animation-v2.u-text-animation-v2--typing", {
-          strings: ["Profesyonel Saç Ekimi", "Fue Saç Ekimi", "DHI Saç Ekimi", "Safir Fue Saç Ekimi", "Sakal Ekimi", "Kaş Ekimi"],
-          typeSpeed: 80,
-          loop: true,
-          backSpeed: 50,
-          backDelay: 3000
-        });
 
       });
     </script>

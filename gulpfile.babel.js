@@ -80,7 +80,7 @@ function cleanUnusedCSS () {
 // Compress assets
 function compressAssets () {
   return gulp.src(`${PATHS.dist}/**/*.{css,js,html}`)
-    .pipe(gzip({ extension: 'gzip' }))
+    //.pipe(gzip({ extension: 'gzip' }))
     .pipe(gulp.dest(PATHS.dist))
 }
 
@@ -187,5 +187,5 @@ exports.default = gulp.series(
 exports.build = gulp.series(
   // eslint, stylelint, cleanUnusedCSS
   gulp.parallel(copyAssets, copyStaticFiles, images, css, js),
-  revFiles, compressAssets
+  compressAssets
 )

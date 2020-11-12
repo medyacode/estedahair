@@ -1,7 +1,15 @@
 // Import Global/index scss
 @import './global/index';
 
-@import './../theme/space/css-import.scss';
+@import '../theme/space/vendor/hs-megamenu/src/hs.megamenu.css';
+@import '../theme/space/vendor/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.css';
+@import '../theme/space/vendor/custombox/dist/custombox.min.css';
+@import '../theme/space/vendor/animate.css/animate.min.css';
+@import '../theme/space/vendor/cubeportfolio/css/cubeportfolio.min.css';
+@import '../theme/space/vendor/slick-carousel/slick/slick.css';
+@import '../theme/space/vendor/fancybox/jquery.fancybox.css';
+@import '../theme/space/css/theme.css';
+
 
 // Import vendor scss
 // @import './vendor/bootstrap-custom';
